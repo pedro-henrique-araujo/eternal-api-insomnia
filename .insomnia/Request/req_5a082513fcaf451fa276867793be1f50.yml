@@ -1,0 +1,25 @@
+_id: req_5a082513fcaf451fa276867793be1f50
+type: Request
+parentId: fld_d48898565f1d499e9b2a69bdbc99142d
+modified: 1658923802500
+created: 1658591638395
+url: "{{ _.baseUrl }}{% request 'folder', '', 0 %}/process/10"
+name: Process
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_ae1b0cce66034726b3715f4d363aba45
+    name: Authorization
+    value: "{{ _.jwtToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1658366953340.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

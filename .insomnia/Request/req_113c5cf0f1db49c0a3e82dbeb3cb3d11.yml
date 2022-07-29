@@ -1,0 +1,36 @@
+_id: req_113c5cf0f1db49c0a3e82dbeb3cb3d11
+type: Request
+parentId: fld_d48898565f1d499e9b2a69bdbc99142d
+modified: 1658884020156
+created: 1658580956533
+url: "{{ _.baseUrl }}{% request 'folder', '', 0 %}"
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "value": 1000,
+      "expiration": "2023-08-23",
+      "clientId": 1,
+    	"contractTemplateId": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_45a40439cb6b4b2fb985c9b8ac584f3d
+  - id: pair_e5636555cc13432c9a7ecc9ce10a1975
+    name: Authorization
+    value: "{{ _.jwtToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1658366953278
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_298ed17c35b14115b378c899b892bd86
+type: Request
+parentId: fld_c8ce0f4ec0584c9ca8cceea9d6870798
+modified: 1658932553134
+created: 1658366953378
+url: "{{ _.baseUrl }}{% request 'folder', '', 0 %}?page=1"
+name: Get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_400638e759774e5a830ab8a0904e6c37
+    name: Authorization
+    value: "{{ _.jwtToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1658366953378
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

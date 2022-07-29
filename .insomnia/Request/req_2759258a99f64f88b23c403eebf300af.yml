@@ -1,0 +1,25 @@
+_id: req_2759258a99f64f88b23c403eebf300af
+type: Request
+parentId: fld_d48898565f1d499e9b2a69bdbc99142d
+modified: 1658923823946
+created: 1658581276210
+url: "{{ _.baseUrl }}{% request 'folder', '', 0 %}/instalments-pdf/10"
+name: Get Instalments PDF
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_41efeff81e584050b462207514e6db53
+    name: Authorization
+    value: "{{ _.jwtToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1658366953353
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_0615a7eecf1a409ea3872f0c317a223e
+type: Request
+parentId: fld_531552e6bfe343559b1f2cf74122f8fe
+modified: 1658883530998
+created: 1658883530998
+url: "{{ _.baseUrl }}{% request 'folder', '', 0 %}"
+name: Options
+description: ""
+method: OPTIONS
+body: {}
+parameters: []
+headers:
+  - id: pair_e651158711ab4b96bebb7472bb0aa482
+    name: Authorization
+    value: "{{ _.jwtToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1658366953303
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

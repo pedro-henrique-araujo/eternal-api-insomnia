@@ -1,0 +1,25 @@
+_id: req_5df33cd491f24ea089d6c26d5e414bd2
+type: Request
+parentId: fld_531552e6bfe343559b1f2cf74122f8fe
+modified: 1658883531003
+created: 1658883531003
+url: "{{ _.baseUrl }}{% request 'folder', '', 0 %}/6"
+name: Delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_17c6b98335e340c98eb58917eb4c7afa
+    name: Authorization
+    value: "{{ _.jwtToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1658366953128
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

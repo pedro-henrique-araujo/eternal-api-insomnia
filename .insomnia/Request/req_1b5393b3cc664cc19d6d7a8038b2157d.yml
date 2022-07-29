@@ -1,0 +1,21 @@
+_id: req_1b5393b3cc664cc19d6d7a8038b2157d
+type: Request
+parentId: fld_653b903fae6643c1b023375546d954c7
+modified: 1658881550451
+created: 1658880235509
+url: "{{ _.baseUrl }}{% request 'folder', '', 0 %}/akepicia"
+name: Get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1658880235509
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

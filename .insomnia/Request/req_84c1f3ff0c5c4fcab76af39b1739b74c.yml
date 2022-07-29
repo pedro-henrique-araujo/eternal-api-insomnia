@@ -1,0 +1,25 @@
+_id: req_84c1f3ff0c5c4fcab76af39b1739b74c
+type: Request
+parentId: fld_ca07fa53b7084dd4a4d976c8d7868234
+modified: 1658923818086
+created: 1658794504702
+url: "{{ _.baseUrl }}{% request 'folder', '', 0 %}/by-contract/10"
+name: Get By Contract
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_51d29ac5e4c142ce95e8102ac7d9c55f
+    name: Authorization
+    value: "{{ _.jwtToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1658366953428
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

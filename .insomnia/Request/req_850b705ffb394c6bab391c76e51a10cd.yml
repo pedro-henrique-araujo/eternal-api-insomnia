@@ -1,0 +1,25 @@
+_id: req_850b705ffb394c6bab391c76e51a10cd
+type: Request
+parentId: fld_d48898565f1d499e9b2a69bdbc99142d
+modified: 1658932552198
+created: 1658790896088
+url: "{{ _.baseUrl }}{% request 'folder', '', 0 %}/contract-pdf/10"
+name: Get Contract PDF
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_651a50bdbe2247a9beb111bad5d8cebd
+    name: Authorization
+    value: "{{ _.jwtToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1658366953346.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_251267dffe864306bff4c7bbdab4060e
+type: Request
+parentId: fld_ca07fa53b7084dd4a4d976c8d7868234
+modified: 1658881533417
+created: 1658794612362
+url: "{{ _.baseUrl }}{% request 'folder', '', 0 %}/14"
+name: Pay
+description: ""
+method: PATCH
+body: {}
+parameters: []
+headers:
+  - id: pair_edff8d7307324074862ad3ba8c8b585c
+    name: Authorization
+    value: "{{ _.jwtToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1658366953371.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

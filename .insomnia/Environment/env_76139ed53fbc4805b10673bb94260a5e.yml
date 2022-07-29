@@ -1,0 +1,16 @@
+_id: env_76139ed53fbc4805b10673bb94260a5e
+type: Environment
+parentId: env_e64b6de5cbfae8bf0461dbc81d57df0e4701bdc4
+modified: 1658932546091
+created: 1658932523734
+name: Dev Deployment
+data:
+  baseUrl: https://eternal.azurewebsites.net/
+  jwtToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFrZXBpY2lhIiwibmJmIjoxNjU4ODgyMTUxLCJleHAiOjE2NTg5Njg1NTEsImlhdCI6MTY1ODg4MjE1MX0.0PcWMLruV4pLw3XnfkKcxjgUFB0lPGN7TxRCaSOXwe4
+dataPropertyOrder:
+  "&":
+    - baseUrl
+    - jwtToken
+color: null
+isPrivate: false
+metaSortKey: 1658932523734

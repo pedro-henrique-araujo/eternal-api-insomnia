@@ -1,0 +1,36 @@
+_id: req_fc9a6329697440cb888b41c6a399ce92
+type: Request
+parentId: fld_531552e6bfe343559b1f2cf74122f8fe
+modified: 1658883531001
+created: 1658883531001
+url: "{{ _.baseUrl }}{% request 'folder', '', 0 %}"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 1,
+    	"cpf": "07374745694",
+    	"name": "Pedro Henrique",
+    	"birthDate": "2001-09-07T00:00:00"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d0945396e30f4db7bfbd31d6e3d9dac3
+  - id: pair_e1ca4b13607c4200af04582b02474f17
+    name: Authorization
+    value: "{{ _.jwtToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1658366953178
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

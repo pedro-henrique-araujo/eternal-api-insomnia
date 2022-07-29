@@ -1,0 +1,36 @@
+_id: req_6173e9af29b44fffaf3e7f6f7efbc723
+type: Request
+parentId: fld_c8ce0f4ec0584c9ca8cceea9d6870798
+modified: 1658924219868
+created: 1658367252907
+url: "{{ _.baseUrl }}{% request 'folder', '', 0 %}"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	
+    	"id": "1",
+    	"name": "Template Padrão",
+    	"text": "CONTRATO DE PRESTAÇÃO DE SERVIÇO\n 1-DAS PARTES \n Pelo presente instrumento particular de Contrato de Prestação de Serviços firmados de um lado por Funerária Resplendor \nEterno, com sede na cidade de Aquiraz, Estado do Ceará, a Rua Tibúrcio Targino, 496, Centro, inscrita no Cadastro Nacional de \nPessoas Jurídicas do Ministério da Fazenda, sob o nº 12.345.678/9089-12, Inscrição Estadual sob o nº 12345678-9, neste ato \nrepresentado por sua Diretora Presidente infrafirmada, doravante designada CONTRATADA, e de outro lado, o (a) Titular, \ndoravante designada CONTRATANTE, têm entre si justo e contratado o seguinte:\n \n II-DO OBJETIVO \n A CONTRATADA, empresa especializada no atendimento de serviços funerários em geral, obriga-se a prestar ao (a) \nCONTRATANTE e aos seus beneficiários, os serviços enumerados no regulamento constante neste contrato mediante condições \nabaixo estabelecidas.\n \n III-DOS BENEFICIÁRIOS\n 3.1-0(A) CONTRATANTE fornecerá a CONTRATADA à qualificação completa dos seus beneficiários (familiares), só sendo \npermitida a substituição dos mesmos em caso de falecimento. Dependentes e/ou familiares do contratante que não constarem no \nrol de beneficiários acima mencionados, poderão fazer uso dos serviços prestados pela contratada mediante a concessäo de \ndesconto de 15% (quinze por cento) sobre o valor total das despesas realizadas com serviços porventura solicitados.\n 3.2-Firmado o presente contrato, o (a) CONTRATANTE e seus beneficiários, somente teräo direito aos serviços prestados pela \nCONTRATADA, após um período de carência de 90 (noventa) dias. Durante o período de carência, caso o (a) CONTRATANTE \nnecessite fazer uso dos serviços prestados pela CONTRATADA terá um desconto de 20% (vinte por cento) sobre o valor total \ndas despesas realizadas, entretanto para gozar do mencionado benefício deverá estar quite com a tesouraria.\n \n IV-DA REMUNERAÇÃO \n 4.1-As mensalidades aqui contratadas tem como referência um percentual de 5% (cinco por cento) sobre o salário mínimo \nvigente na região conforme regulamento.\n 4.2-O pagamento das referidas mensalidades será feito mediante apresentação de carnês nas lojas Funerária Resplendor Eterno \nou em locais indicados pela contratada, sendo que tais valores não constituem fundos de reservas, como formação de poupança, \npresunção de sociedade que importe em devolução futura.\n 4.3-Fica autorizado o (a) CONTRATANTE efetuar o pagamento da taxa de adesão ao vendedor da CONTRATADA, ficando \nterminantemente proibido ao CONTRATANTE efetuar qualquer outro tipo de pagamento aos vendedores.\n \n V-DO PRAZO DO CONTRATO \n 5.1-O presente contrato é por prazo determinado de 04 (quatro) anos, contado a partir da data de assinatura.\n 5.2-O prazo será sucessivo e automaticamente renovado por igual período, sem qualquer ônus, desde que não seja denunciado \npor escrito por qualquer\n das partes, para sua rescisão.\n \n VI-DA RESCISÃO\n O presente contrato poderá ser rescindido, nas seguintes condições:\n a) Pelo contratante, caso não utilize os serviços oriundos deste contrato, mediante comunicação por escrito e sem restituição \nalguma.\n b) Pelo contratante, que utilizar os serviços oriundos deste contrato, mediante a quitação total das remunerações que irão vencer \naté o término do mesmo.\n c) Pelo contratante, que atrasar 03 (três) mensalidades consecutivas.\n \n VII-DAS CONDIÇÕES GERAIS \n 7.1-O contratante, que atrasar 03 (três) mensalidades consecutivas, terá todos os seus direitos suspensos (sem necessidade de \ncomunicação formal por parte da empresa).\n 7.2-A reabilitação do direito a prestação de serviços se produzirá logo depois de transcorrido 30 (trinta) dias contado a partir da \ndata em que o(a) CONTRATANTE tenha pago a totalidade das remunerações mensais vencidas.\n 7.3-Em caso de falecimento e sepultamento do (a) CONTRATANTE e/ou seus beneficiários a CONTRATADA não se \nresponsabilizará com despesas realizadas com cemitério.\n 7.4-Translado exclusivamente por via terrestre do carro fünebre, até o limite de 200 (duzentos) quilómetros rodadas, tomados \ncomo ponto de partida a Sede da CONTRATADA em Aquiraz -Ceará. Na hipótese da família do CONTRATANTE desejar \ntransportar o corpo do (a) falecido (a) para fora de ação do Plano, ser-lhe-a cobrada à taxa de transporte excedente por km \nrodado, cujo preço terá por base a tabela de frete vigente à época do óbito.\n 7.5-A área de abrangência do transporte para acompanhamento do funeral, em ônibus ou topic é de 50 (cinquenta) quilômetros \nrodados, caso ultrapasse a quilometragem ora pactuada o (a) CONTRATANTE pagará uma taxa adicional por quilometro \nrodado.\n 7.6-Na hipótese de falecimento do (a) CONTRATANTE, o presente Contrato passará aos seus dependentes, devendo ser \nobedecida à ordem de sucessão legal.\n 7.7-0 (a) CONTRATANTE e seus beneficiários, näo poderão em hipótese alguma ceder a terceiros, o serviço ora contratado.\n 7.8-As partes elegem o Foro da Comarca de Aquiraz - Ceará, para dirimir quaisquer dúvidas emergentes do presente contrato, \ncom renúncia expressa a qualquer outro por mais privilegiado que seja.\n 7.9-E por estarem às partes aqui justas e contratadas, assinam o presente contrato em 02 (duas) vias de igual teor e forma.\n \n VIII-DISCRIMINAÇÃO DOS MATERIAIS UTILIZADOS NA PRESTAÇÃO DE SERVIÇO \n Urna mortuária estilo sextavada, envernizada, com visor, varão ou alça parreira, babado e câmara ardente, tapete, aparatos, \nvestimenta, ornamentação, kit café, translado do ônibus 50 km e do carro fúnebre até 200 km percorridos"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d0945396e30f4db7bfbd31d6e3d9dac3
+  - id: pair_e1ca4b13607c4200af04582b02474f17
+    name: Authorization
+    value: "{{ _.jwtToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1658366953178
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

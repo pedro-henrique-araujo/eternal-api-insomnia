@@ -1,0 +1,35 @@
+_id: req_df0822e9e4ae4cd0a9563ec6b3462696
+type: Request
+parentId: fld_531552e6bfe343559b1f2cf74122f8fe
+modified: 1658883530995
+created: 1658883530995
+url: "{{ _.baseUrl }}{% request 'folder', '', 0 %}"
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "cpf": "1256",
+      "name": "Pedro",
+      "birthDate": "2005-09-07"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_45a40439cb6b4b2fb985c9b8ac584f3d
+  - id: pair_c55ef047d5804fa99c41ae551f63e8ed
+    name: Authorization
+    value: "{{ _.jwtToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1658366953278
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
