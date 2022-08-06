@@ -1,7 +1,7 @@
 _id: req_fc9a6329697440cb888b41c6a399ce92
 type: Request
 parentId: fld_531552e6bfe343559b1f2cf74122f8fe
-modified: 1658883531001
+modified: 1659752027346
 created: 1658883531001
 url: "{{ _.baseUrl }}{% request 'folder', '', 0 %}"
 name: Update
@@ -11,10 +11,16 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"id": 1,
-    	"cpf": "07374745694",
-    	"name": "Pedro Henrique",
-    	"birthDate": "2001-09-07T00:00:00"
+    	"id": 7,
+    	"cpf": "45588845318",
+    	"name": "Zezin",
+    	"birthDate": "2001-09-07",
+    	"rg": "55584132688",
+    	"houseNumber": "520",
+    	"street": "Rua da Saldanha",
+    	"neighborhood": "Centro",
+    	"city": "Aquiraz",
+    	"phoneNumber": "1234984"
     }
 parameters: []
 headers:

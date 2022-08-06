@@ -1,7 +1,7 @@
 _id: req_df0822e9e4ae4cd0a9563ec6b3462696
 type: Request
 parentId: fld_531552e6bfe343559b1f2cf74122f8fe
-modified: 1658883530995
+modified: 1659751590796
 created: 1658883530995
 url: "{{ _.baseUrl }}{% request 'folder', '', 0 %}"
 name: Create
@@ -11,9 +11,15 @@ body:
   mimeType: application/json
   text: |-
     {
-      "cpf": "1256",
-      "name": "Pedro",
-      "birthDate": "2005-09-07"
+    	"cpf": "45588845318",
+    	"name": "Zezin",
+    	"birthDate": "2001-09-07",
+    	"rg": "55584132688",
+    	"houseNumber": "520",
+    	"street": "Rua da Saldanha",
+    	"neighborhood": "Centro",
+    	"city": "Aquiraz",
+    	"phoneNumber": "1234984"
     }
 parameters: []
 headers:
