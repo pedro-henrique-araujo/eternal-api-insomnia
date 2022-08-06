@@ -1,21 +1,21 @@
-_id: req_0615a7eecf1a409ea3872f0c317a223e
+_id: req_bc87ca06ac8f4d6f91f4cb1a087a648c
 type: Request
-parentId: fld_531552e6bfe343559b1f2cf74122f8fe
-modified: 1659744498017
-created: 1658883530998
-url: "{{ _.baseUrl }}{% request 'folder', '', 0 %}"
-name: Options
+parentId: fld_0aa79937a6fa416d8bc4b6812390cacf
+modified: 1659745387513
+created: 1659743714927
+url: "{{ _.baseUrl }}{% request 'folder', '', 0 %}/3"
+name: Delete
 description: ""
-method: OPTIONS
+method: DELETE
 body: {}
 parameters: []
 headers:
-  - id: pair_e651158711ab4b96bebb7472bb0aa482
+  - id: pair_17c6b98335e340c98eb58917eb4c7afa
     name: Authorization
     value: "{{ _.jwtToken }}"
     description: ""
 authentication: {}
-metaSortKey: -1658366953303
+metaSortKey: -1658366953128
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

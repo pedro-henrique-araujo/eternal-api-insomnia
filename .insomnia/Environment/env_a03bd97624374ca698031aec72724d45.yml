@@ -1,12 +1,12 @@
 _id: env_a03bd97624374ca698031aec72724d45
 type: Environment
 parentId: env_e64b6de5cbfae8bf0461dbc81d57df0e4701bdc4
-modified: 1658932515394
+modified: 1659743820015
 created: 1658366889838
 name: Dev
 data:
   baseUrl: https://localhost:7024/
-  jwtToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFrZXBpY2lhIiwibmJmIjoxNjU4ODgyMTUxLCJleHAiOjE2NTg5Njg1NTEsImlhdCI6MTY1ODg4MjE1MX0.0PcWMLruV4pLw3XnfkKcxjgUFB0lPGN7TxRCaSOXwe4
+  jwtToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFrZXBpY2lhIiwibmJmIjoxNjU5NzQzODA1LCJleHAiOjE2NTk4MzAyMDUsImlhdCI6MTY1OTc0MzgwNX0.nferZHu7czPMTOzkauVuscriMNyQIh4fjlBboSF9F9k
 dataPropertyOrder:
   "&":
     - baseUrl
